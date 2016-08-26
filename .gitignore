@@ -54,3 +54,4 @@ docs/_build/
 
 # Physics 296 Files and directories
 *.key/
+*.key
