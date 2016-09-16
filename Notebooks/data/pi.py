@@ -1,5 +1,7 @@
-# File: pi.py
-# Functions that can be used to approximate pi.
+'''
+File: pi.py
+Functions that can be used to approximate pi.
+'''
 
 def leibniz(N):
     '''Compute pi via an accelerated Leibniz summation.'''
@@ -42,16 +44,11 @@ def monte_carlo(N):
     mcpi = 4.0*inCircle / (1.0*N)
     return mcpi
 
-# Main Function
-def main():
+# The order of our pi approximations
+N = 5*10**6
 
-    # The order of our pi approximations
-    N = 10000
+# output to the terminal
+print('Leibniz     π = %16.14f' % leibniz(N))
+print('Sharp       π = %16.14f' % sharp(N))
+print('Monte Carlo π = %16.14f' % monte_carlo(N))
 
-    print('Leibniz     π = %16.14f' % leibniz(N))
-    print('Sharp       π = %16.14f' % sharp(N))
-    print('Monte Carlo π = %16.14f' % monte_carlo(N))
-    
-# main is called once when the script is executed.    
-if __name__ == '__main__':
-    main()
