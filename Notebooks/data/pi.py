@@ -44,11 +44,15 @@ def monte_carlo(N):
     mcpi = 4.0*inCircle / (1.0*N)
     return mcpi
 
-# The order of our pi approximations
-N = 5*10**6
+def main():
+    # The order of our pi approximations
+    N = 5*10**6
+    
+    # output to the terminal
+    print('Leibniz     π = %16.14f' % leibniz(N))
+    print('Sharp       π = %16.14f' % sharp(N))
+    print('Monte Carlo π = %16.14f' % monte_carlo(N))
 
-# output to the terminal
-print('Leibniz     π = %16.14f' % leibniz(N))
-print('Sharp       π = %16.14f' % sharp(N))
-print('Monte Carlo π = %16.14f' % monte_carlo(N))
+if __name__ == '__main__':
+    main()
 
