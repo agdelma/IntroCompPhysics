@@ -1,5 +1,5 @@
-IntroCompPhysics
-================
+PHYS 256: Computational Physics
+===============================
 
 A set of Jupyter notebooks that constitute an active-learning or self-directed
 curriculum for UVM Physics 256: Computational Physics.
