@@ -26,4 +26,9 @@ simulation data)
 molecular dynamics)
 - Linear algebra (quantum mechanics and spin systems)
 
+The creation of these curricular materials was supported in part by the
+National Science Foundation under Award No. DMR-1553991.
+
+![NSF](https://www.nsf.gov/images/logos/nsf1.gif)
+
 
