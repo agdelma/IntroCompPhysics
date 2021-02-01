@@ -1,0 +1,12 @@
+# Experimental data for the temperature T along a metal rod of length 10 cm
+# suspended between two constant temperature baths.
+# Position (cm)     Temperature (deg C)     Delta T (deg C)
+1.0                 15.6                    4.6
+2.0                 17.5                    6.0
+3.0                 36.6                    8.1
+4.0                 43.8                    3.9
+5.0                 58.2                    4.4
+6.0                 61.6                    8.5
+7.0                 64.2                    3.9
+8.0                 70.4                    7.6
+9.0                 98.8                    10.4
